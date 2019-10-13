@@ -1,0 +1,45 @@
+tablica A = [ 9 7 5 4 2 1 5 3 ]
+_________
+Zadanie 1
+Co to jest niezmiennik pętli i operacja dominująca?
+
+niezmiennik pętli - Wyrażenie logiczne które przed i po każdym wykonaniu pętli jest prawdziwe.
+
+operacja dominująca (elementarna, podstawowa) - Operacja charakterystyczna dla danego algorytmu, na ogół zajmująca
+                                                najwięcej czasu, jej znajomość pozwala określić złożoność czasową algorytmu.
+
+_________
+Zadanie 2
+Podaj operację dominującą dla tablicy A.
+
+Operacją dominującą w tym wypadku jest porównywanie dwóch elementów tablicy (dla tej tablicy w szczególności z pierwszym elementem).
+
+_________
+Zadanie 3
+Co to jest złożnoność algorytmu, jakie są rodzaje, ile wynosi ona dla tablicy A i dowolnego wektora o długości n?
+
+złożoność obliczeniowa - Ilość zasobów potrzebnych do rozwiązania problemu obliczeniowego. Rozróżnia się złożoność
+                         obliczeniową:
+
+                            o czasową - przyjętą miarą jest liczba operacji dominujących  w zależności od rozmiaru
+                                        danych wejściowych
+
+                            o pamięciową - przyjętą miarą jest ilości wykorzystanej pamięci
+
+                            o pesymistyczna - szacunek dla najgorszego przypadku danych wejściowych, tym samym największa
+                                              możliwa liczba operacji dla danych wejściowych
+
+                            o optymistyczna - szacunek dla najlepszego przypadku danych wejściowych, tym samym najmniejsza
+                                              możliwa liczba operacji dla danych wejściowych
+
+                            o średnia - dla przypadku uśrednionego
+
+Dla tablicy A złożoność czasowa wynosi 12 porównań elementów, pamięciowa natomiast O(1), ponieważ w pamięci jest zawsze jedna liczba.
+
+Dla wektora o długości n:
+    o przypadek optymistyczny - gdy tablica danych wejściowych posortowana jest malejąco, to w każdym kroku każda kolejna wartość
+                                porównana zostanie tylko jeden raz, więc O(n)
+
+    o przypadek pesymistyczny - gdy tablica danych wejściowych uprządkowana będzie rosnąco
+
+
