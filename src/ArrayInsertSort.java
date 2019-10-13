@@ -1,4 +1,4 @@
-public class Main {
+public class ArrayInsertSort {
 
     public static void main(String[] args) {
         int [] in = {9, 7, 5, 4, 2, 1, 5, 3};
